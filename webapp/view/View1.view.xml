@@ -1,6 +1,26 @@
-<mvc:View controllerName="basicproject.controller.View1"
+<mvc:View
+    controllerName="basicproject.controller.View1"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
+
+    <Page title="== vs === Demo">
+        <content>
+
+            <VBox class="sapUiSmallMargin">
+
+                <!-- Inputs -->
+                <Input id="ip1" placeholder="Enter value 1" />
+                <Input id="ip2" placeholder="Enter value 2" />
+
+                <!-- Button -->
+                <Button text="Compare" press="onCompare" />
+
+                <!-- Output -->
+                <Text id="txtResult" wrapping="true" />
+
+            </VBox>
+
+        </content>
     </Page>
+
 </mvc:View>
