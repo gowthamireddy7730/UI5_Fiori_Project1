@@ -39,6 +39,7 @@ sap.ui.define([
                         reject("Promise: Error while loading data\n");
                     }
                 }, 2000);
+                // add
 
             });
             //Runs when promise is successful
