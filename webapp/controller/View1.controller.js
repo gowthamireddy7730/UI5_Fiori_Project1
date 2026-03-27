@@ -155,7 +155,7 @@ sap.ui.define([
             oVBox.addItem(oImage);
         },
 
-        // --Close Image-- //
+        // --Close Image Function-- //
         onCloseImage: function () {
 
             var oVBox = this.getView().byId("imgBox"); 
