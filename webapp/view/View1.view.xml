@@ -1,17 +1,23 @@
 <mvc:View
-    controllerName="basicproject.controller.View1" 
+    controllerName="basicproject.controller.View1"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
 
-    <Page title="Practice">
+    <!-- ✅ Added id="page" -->
+
+    <Page id="page" title="Practice Session" class="myCustomPage">
+
         <content>
 
             <VBox class="sapUiSmallMargin">
+
                 <!-- Output -->
                 <Text id="txtResult" wrapping="true" />
 
             </VBox>
+
         </content>
+
     </Page>
 
 </mvc:View>
